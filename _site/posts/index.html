@@ -5,25 +5,39 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>All Posts &#8211; Site Title</title>
+<title>All Posts &#8211; Test</title>
 <meta name="description" content="">
 <meta name="keywords" content="blog">
+<!-- Twitter Cards -->
+	
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:image" content=
+			
+				
+						"http://localhost:4000/images/"
+				
+			
+		>
+	
+	<meta name="twitter:title" content="All Posts">
+	<meta name="twitter:description" content="The personal website of Andrew Flack">
+	<meta name="twitter:creator" content="@andrew_flack">
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="All Posts">
-<meta property="og:description" content="Describe your website.">
+<meta property="og:description" content="The personal website of Andrew Flack">
 <meta property="og:url" content="http://localhost:4000/posts/">
-<meta property="og:site_name" content="Site Title">
+<meta property="og:site_name" content="Test">
 
 
 
 
 
 <link rel="canonical" href="http://localhost:4000/posts/">
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Site Title Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Test Feed">
 
 
 <!-- http://t.co/dKP3o1e -->
@@ -69,7 +83,7 @@
 
 <div class="navigation-wrapper">
 	<div class="site-name">
-		<a href="http://localhost:4000">Site Title</a>
+		<a href="http://localhost:4000">Test</a>
 	</div><!-- /.site-name -->
 	<div class="top-navigation">
 		<nav role="navigation" id="site-nav" class="nav">
@@ -79,9 +93,7 @@
 		        
 				<li><a href="http://localhost:4000/posts/" >Posts</a></li>
 		        
-				<li><a href="http://localhost:4000/theme-setup/" >Theme Setup</a></li>
-		        
-				<li><a href="http://mademistakes.com" target="_blank">Made Mistakes</a></li>
+				<li><a href="http://localhost:4000/Projects/" >Projects</a></li>
 		        
 		    </ul>
 		</nav>
@@ -92,17 +104,17 @@
 
 <div class="article-author-side">
   
-	<img src="http://localhost:4000/images/bio-photo.jpg" class="bio-photo" alt="Your Name bio photo"></a>
+	<img src="http://localhost:4000/images/bio-photo.jpg" class="bio-photo" alt="Andrew Flack bio photo"></a>
 
-<h3>Your Name</h3>
+<h3>Andrew Flack</h3>
 <p>Describe your self.</p>
+<a href="http://twitter.com/andrew_flack" class="author-social" target="_blank"><i class="icon-twitter"></i> Twitter</a>
 
 
+<a href="http://linkedin.com/in/andrewflack" class="author-social" target="_blank"><i class="icon-linkedin"></i> LinkedIn</a>
 
 
-
-
-
+<a href="http://github.com/andrewflack" class="author-social" target="_blank"><i class="icon-github"></i> Github</a>
 
 
 
@@ -191,7 +203,7 @@
 
 <div class="footer-wrap">
   <footer>
-    <span>&copy; 2014 Your Name. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+    <span>&copy; 2014 Andrew Flack. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
 
   </footer>
 </div><!-- /.footer-wrap -->
@@ -199,6 +211,22 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-51736167-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 
 
   
