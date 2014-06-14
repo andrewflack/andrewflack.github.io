@@ -1,7 +1,7 @@
 title:            Andrew
 description:      The personal website of Andrew Flack
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://0.0.0.0:4000/ #http://andrewflack.github.io/
+url:              #http://andrewflack.github.io/
 disqus_shortname: andrewflackgithubio
 
 # Owner/author information
