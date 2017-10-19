@@ -1,0 +1,9 @@
+---
+title: NFL Pick ‘Em - Week 5 Update
+author: Andrew Flack
+date: '2017-10-10'
+slug: nfl-pick-em-week-5-update
+categories: []
+tags: []
+---
+

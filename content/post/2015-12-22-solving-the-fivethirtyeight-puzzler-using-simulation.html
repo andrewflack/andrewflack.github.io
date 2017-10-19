@@ -1,0 +1,44 @@
+---
+title: Solving the FiveThirtyEight Puzzler Using Simulation
+author: Andrew Flack
+date: '2015-12-22'
+slug: solving-the-fivethirtyeight-puzzler-using-simulation
+categories: []
+tags: []
+---
+
+
+
+<p>A few weeks ago, <a href="fivethirtyeight.com">FiveThirtyEight</a> began a weekly series called “The Riddler”, posting math, logic, and probability puzzles. Although I’m sure there’s a relatively simple analytical solution, I decided to take the “easy” route and tackle <a href="https://fivethirtyeight.com/features/how-long-will-your-smartphone-distract-you-from-family-dinner/">today’s puzzle</a> using simulation.</p>
+<blockquote>
+<p>You’ve just finished unwrapping your holiday presents. You and your sister got brand-new smartphones, opening them at the same moment. You immediately both start doing important tasks on the Internet, and each task you do takes one to five minutes. (All tasks take exactly one, two, three, four or five minutes, with an equal probability of each). After each task, you have a brief moment of clarity. During these, you remember that you and your sister are supposed to join the rest of the family for dinner and that you promised each other you’d arrive together. You ask if your sister is ready to eat, but if she is still in the middle of a task, she asks for time to finish it. In that case, you now have time to kill, so you start a new task (again, it will take one, two, three, four or five minutes, exactly, with an equal probability of each). If she asks you if it’s time for dinner while you’re still busy, you ask for time to finish up and she starts a new task and so on. From the moment you first open your gifts, how long on average does it take for both of you to be between tasks at the same time so you can finally eat? (You can assume the “moments of clarity” are so brief as to take no measurable time at all.)</p>
+</blockquote>
+<pre class="r"><code>run_simulation &lt;- function(nsim = 1000) {
+  result &lt;- rep(NA, nsim)
+  for (i in 1:nsim){
+    
+    # simulate 100 tasks for sister a and sister b
+    # track cumulative time at completion of each task
+    a &lt;- cumsum(sample.int(5, 100, TRUE))
+    b &lt;- cumsum(sample.int(5, 100, TRUE))
+    
+    # when cumulative times match, they can go to dinner
+    result[i] &lt;- min(b[match(a, b)], na.rm = TRUE)
+  }
+  return(mean(result))
+}
+
+run_simulation(1e6)</code></pre>
+<pre><code>## [1] 8.998177</code></pre>
+<p>Looks like the solution is 9 minutes. I submitted my answer, so we’ll see if I got it right!</p>
+<p><strong>Update 12/29/15</strong> - I got a shoutout for my correct submission! You can read the explanation of the full analytical solution <a href="https://fivethirtyeight.com/features/riddler-how-long-before-you-can-use-your-2015-calendar-again-riddler/">here</a>.</p>
+<center>
+<img src="/fivethirtyeight_shoutout.png" />
+</center>
+<p>Looking at the comments, some people were not thrilled with my use of simulation…</p>
+<center>
+<img src="/fivethirtyeight_comments.png" />
+</center>
+<center>
+<pre>¯\_(ツ)_/¯</pre>
+</center>

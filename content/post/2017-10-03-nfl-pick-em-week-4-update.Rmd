@@ -1,0 +1,9 @@
+---
+title: NFL Pick ‘Em - Week 4 Update
+author: Andrew Flack
+date: '2017-10-03'
+slug: nfl-pick-em-week-4-update
+categories: []
+tags: []
+---
+

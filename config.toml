@@ -2,8 +2,8 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Andrew Flack"
 theme = "hugo-lithium-theme"
-googleAnalytics = ""
-disqusShortname = ""
+googleAnalytics = "UA-108088384-1"
+disqusShortname = "@flack_andrew"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
@@ -29,7 +29,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxVersion = "2.7.1"
 
     [params.logo]
-    url = "logo.png"
+    url = "IMG_4352.png"
     width = 50
     height = 50
     alt = "Logo"
