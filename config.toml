@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Andrew Flack"
 theme = "hugo-lithium-theme"
 googleAnalytics = "UA-108088384-1"
-disqusShortname = "@flack_andrew"
+disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
