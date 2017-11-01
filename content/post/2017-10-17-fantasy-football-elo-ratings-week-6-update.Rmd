@@ -5,5 +5,6 @@ date: '2017-10-17'
 slug: fantasy-football-elo-ratings-week-6-update
 categories: []
 tags: []
+draft: true
 ---
 

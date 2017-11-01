@@ -5,5 +5,6 @@ date: '2017-09-26'
 slug: nfl-pick-em-week-3-update
 categories: []
 tags: []
+draft: true
 ---
 

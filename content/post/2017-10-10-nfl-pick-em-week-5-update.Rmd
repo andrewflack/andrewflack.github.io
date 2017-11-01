@@ -5,5 +5,6 @@ date: '2017-10-10'
 slug: nfl-pick-em-week-5-update
 categories: []
 tags: []
+draft: true
 ---
 

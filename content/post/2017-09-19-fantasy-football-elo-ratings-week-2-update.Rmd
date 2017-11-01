@@ -5,5 +5,6 @@ date: '2017-09-19'
 slug: fantasy-football-elo-ratings-week-2-update
 categories: []
 tags: []
+draft: true
 ---
 
