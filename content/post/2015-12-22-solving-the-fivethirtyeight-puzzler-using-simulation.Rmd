@@ -35,10 +35,10 @@ Looks like the solution is 9 minutes. I submitted my answer, so we'll see if I g
 
 **Update 12/29/15** - I got a shoutout for my correct submission! You can read the explanation of the full analytical solution [here](https://fivethirtyeight.com/features/riddler-how-long-before-you-can-use-your-2015-calendar-again-riddler/).
 
-<center>![](/fivethirtyeight_shoutout.png)</center>
+<center>![](/post/2015-12-22-solving-the-fivethirtyeight-puzzler-using-simulation/fivethirtyeight_shoutout.png)</center>
 
 Looking at the comments, some people were not thrilled with my use of simulation...  
 
-<center>![](/fivethirtyeight_comments.png)</center>
+<center>![](/post/2015-12-22-solving-the-fivethirtyeight-puzzler-using-simulation/fivethirtyeight_comments.png)</center>
 
 <center><pre>¯\_(ツ)_/¯</pre></center>

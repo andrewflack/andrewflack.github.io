@@ -1,0 +1,10 @@
+---
+title: Fantasy Football Elo Ratings Week 7 Update
+author: Andrew Flack
+date: '2017-10-24'
+slug: fantasy-football-elo-ratings-week-7-update
+categories: []
+tags: []
+draft: true
+---
+
